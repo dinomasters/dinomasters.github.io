@@ -2,10 +2,71 @@
 <html>
     <head>
         <script src="dinonuggies.js"></script>
+        <style>
+            .title
+            {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .container
+            {
+                max-width: 750px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .why
+            {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .red
+            {
+                color: red;
+            }
+
+            .image
+            {
+                margin-top: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 30%;
+                width: 30%;
+            }
+            
+            .game
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .status
+            {
+                text-align: center;
+            }
+
+            .cook
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
     </head>
     <body>
-        <h1>dino nuggies fan page (BIG FAN!)</h1>
-        <p>we have this fan page to respek the dino nuggies becuase they are very tasty and we like them alot. Dino nuggies are best serverd cooked at a stable temprature of 25*c</p>
-        <img src="img/nuggies.jpg"/>
+        <h1 class="title">dino nuggies fan page <div class="red">(BIG FAN!)</div></h1>
+        <div class="container">
+            <p class="why">we have this fan page to respek the dino nuggies becuase they are very tasty and we like them alot. Dino nuggies are best serverd cooked at a stable temprature of 25*c</p>
+        </div>
+        <img src="img/nuggies.jpg" class="image"/>
+        <div class="game">
+            <p id="status" class="status">Status: uncooked</p>
+            <button id="cook" class="cook">Cook!</button>
+        </div>
     </body>
 </html>
